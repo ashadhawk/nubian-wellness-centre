@@ -1,45 +1,21 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Nubian Wellness Temple
+Welcome to the README file for my first milestone project.
+This project is to create a website for a fitness centre dedicated to promoting physical activity among black people and other people of colour.
 
-Welcome USER_NAME,
+##UX Design
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+**Strategy** A systematic search of online resources revealed a significant lack of fitness and physical activity resources dedicated to promotion of exercise in black people in western countries. The health brenefits of exercise and physical activities are incontrovertible. This means black people are less likely to obtain these benefits. Apart from the economic factors, there are also numerous social and environmental factors that restrict the engagement of black people in physical activities. The additional factor of weather with reduced sunshine hours especially in winter further impacts on physical activity engagement. The strategy for the project evolved from the folloowing user story. "As a black person, I want a gym/fitness facility that understands my need as a black person so I can become more active and healthy".
 
-## Gitpod Reminders
+**Scope** This project has therefore been initiated to create a website for a fitness that tries to address some of the imbalance with regards to access to opportunity for physical activity. While there is a social responsibility component to the mission statement, the centre needs economic viability for sustainability.
+Key objectives of the projects are 1 To provide a supportive environment that will facilitate regular particiopation in exercise and physical activities. 
+2. To create brand awareness.
+3. To promote healthy lifestyle in people of colour.
+4. Act as an advocate for black people to increase access to affordable facilities for exercise and physical activities.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**Structure** :The structure to implement this project will be based on a principle to make desired information and service readily avaialble and to crearte a website that will be both pleasing and engaging for the user.
+The website will be easily accessible across various viewing platforms from mobile phones to desktop. In an increasingly mobile world, a mobile first aprroach willbwe undetaken for the design of the website.
 
-`python3 -m http.server`
+**Skeleton** A mock up of the project was initailly stencilled with paper and pen. A couple of different versions were created to enhance my understanding and competence in creating the skeleton/wireframe of the project. This was converted to a low fidelity digital version using Balsamiq wireframe. 
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+** Surface** With the wireframe now done, I am now progressing to the surface plane to create the website using the knowledge I have acquired from the various lessons and tutorials.
+Here is to a Happy coding!
