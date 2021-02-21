@@ -17,6 +17,26 @@
 .link-color-join {
     background-color: tomato;
 }
+/*------------------Special margins/paddings/text*/
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: ivory;
+
+}
+.inline-block {
+    display: inline-block;
+}
+
 /*------------------Heading*/
 .heading {
     margin: 0;
@@ -31,6 +51,25 @@
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+    .heading-logo {
+    background: url("../images/nwclogo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.heading-logo h4 {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    color: blue;
+}
+
 .name {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -90,4 +129,41 @@
 .hvr-sweep-to-top:before {
     background: rgba(0,0,0, 0.2);
     height: 120px;
+}
+
+/*-------------------------------footer*/
+footer {
+    background-color: slategray;
+    color: ivory;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    width: 35px;
+    height: 35px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: ivory;
+    background: lightgrey;
+    transition: all 0.35s ease-in-out ;
+    -moz-transition: all 0.35s ease-in-out ;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social-links li a i:hover {
+    background: orangered;
+}
+
+#footer-details {
+    padding: 20px;
+}
+.contact-details{
+    padding-top: 0;
 }
