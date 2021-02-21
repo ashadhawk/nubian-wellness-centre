@@ -9,14 +9,18 @@
     background-color: #fff;
 }
 
+.bg-color-objectives {
+    background-color: lightgrey;
+}
+
 .link-color-home{
-    background-color: blueviolet;
+    background-color: lightskyblue;
 }
 .link-color-activities {
-    background-color: royalblue;
+    background-color: lightsteelblue;
 }
 .link-color-gallery {
-    background-color: springgreen;
+    background-color: plum;
 }
 .link-color-join {
     background-color: tomato;
@@ -41,9 +45,6 @@ h4 {
     display: inline-block;
 }
 
-.row-table {
-    display: table;
-}
 
 .section-column {
     display: table-cell;
@@ -82,12 +83,14 @@ h4 {
     -webkit-transition: all .5s ease-in-out;
 }
 .heading-logo h4 {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
     position: absolute;
     bottom: 20px;
     text-align: center;
     width: 100%;
     font-size: 35px;
-    color: blue;
+    color: black;
 }
 
 .name {
@@ -95,6 +98,7 @@ h4 {
     font-weight: 100;
     font-size: 62px;
     margin-top: 20px;
+    margin-left: 10px;
     color: #fff;
 }
 .motto {
@@ -103,6 +107,7 @@ h4 {
     font-size: 25px;
     font-style: italic;
     margin-top: 20px;
+    margin-left: 10px;
     margin-bottom: 90px;
     color: #fff;
 }
