@@ -157,9 +157,43 @@ h4 {
 }
 /*-------------------------------activity section*/
 
-.col-20 {
-    width: 20%;
+.bg-color-spin {
+ background: url("../images/Spin.jpg");
+ background-color: #cccccc;
+   height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+.bg-color-swim {
+ background: url("../images/swim.jpg");
+ background-color: #cccccc;
+   height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-color-afrofusion {
+ background: url("../images/afrofusion.jpg");
+ background-color: #cccccc;
+   height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-color-gym {
+ background: url("../images/gym.jpg");
+ background-color: #cccccc;
+   height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 /*-------------------------------footer*/
 footer {
     background-color: slategray;
