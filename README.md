@@ -19,3 +19,10 @@ The website will be easily accessible across various viewing platforms from mobi
 
 ** Surface** With the wireframe now done, I am now progressing to the surface plane to create the website using the knowledge I have acquired from the various lessons and tutorials.
 Here is to a Happy coding!
+
+For this project, I have utilised the framework of the example provided during the lesson on the use of boostrap. This is to increase my familiarity with the bootsrap framework and also to explore other functionaliries within the system. I have also used the bootsrap version 4 as used in the module lessons though I am aware that version 5 now exists.
+I created an asset folder which holds my image files. The images were mostly obtained from pexels.com 
+My project will have a set up with 4 pages set up as follows:
+1 A home/landing page that gives the user information about the service. It will also hav the vaigation elements as well as contact information. For a unique product tacking a bespoke population, I feel it is important for the landing page to provide vital information relating to that. The rule of thirds will be implemented in all the pages of the project. 
+The set up of the home page with a header and footer section that is common to all the pages of the website. Content variation will be in the middle section of the pages. 
+2. An activities page will show case some of the the various activities on offer. On this page, the activities will be presented with an image overlay that turns to text with hover functionality.
