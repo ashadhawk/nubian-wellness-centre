@@ -25,6 +25,10 @@
 .link-color-join {
     background-color: tomato;
 }
+
+.bg-color-join {
+    background-color: white;
+}
 /*------------------Special margins/paddings/text*/
 h1,
 h2,
@@ -45,13 +49,13 @@ h4 {
     display: inline-block;
 }
 
-
+/*------
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
 }
-
+----------*/
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -119,6 +123,10 @@ h4 {
 .linkcontainer {
     font-size: 0;
 }
+
+#nav {
+    margin: 0;
+}
 #nav li {
     font-size: 16px;
     padding: 0;
@@ -155,6 +163,8 @@ h4 {
     background: rgba(0,0,0, 0.2);
     height: 120px;
 }
+
+
 /*-------------------------------activity section*/
 
 .bg-color-spin {
@@ -165,6 +175,30 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+.activity-text {
+   font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 100px;
+    margin-left: 10px;
+    position: relative;
+    background-color: transparent;
+    visibility:visible;
+    color:black;
+}
+.activity-name {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 30px;
+    text-align: center;
+    width: 75%;
+    font-size: 30px;
+    color:whitesmoke;
+    background: black;
+
 }
 .bg-color-swim {
  background: url("../images/swim.jpg");
@@ -193,22 +227,26 @@ h4 {
   background-size: cover;
   position: relative;
 }
+
+
+
+
 /*-------------------------------gallery*/
 /*-------------------------------code from w3school*/
-.row {
+.gallery-pics {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
-.column {
+.gallery-column {
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
 
-.column img {
+.gallery-column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
@@ -216,7 +254,7 @@ h4 {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .column {
+  .gallery-column {
     flex: 50%;
     max-width: 50%;
   }
@@ -224,14 +262,41 @@ h4 {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
+  .gallery-column {
     flex: 100%;
     max-width: 100%;
   }
 }
+/*-------------------------------Contact Form*/
+.join-heading {
+    font-family:"Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+}
 
+.btn {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: ivory;
+    background-color: orangered;
+}
 
+/*----------------------------Media Queries*/
 
+@media(min-width: 992px) {
+.center-form{
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+}
 /*-------------------------------footer*/
 footer {
     background-color: slategray;
