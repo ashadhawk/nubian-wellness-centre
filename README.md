@@ -20,9 +20,22 @@ The website will be easily accessible across various viewing platforms from mobi
 ** Surface** With the wireframe now done, I am now progressing to the surface plane to create the website using the knowledge I have acquired from the various lessons and tutorials.
 Here is to a Happy coding!
 
-For this project, I have utilised the framework of the example provided during the lesson on the use of boostrap. This is to increase my familiarity with the bootsrap framework and also to explore other functionaliries within the system. I have also used the bootsrap version 4 as used in the module lessons though I am aware that version 5 now exists.
-I created an asset folder which holds my image files. The images were mostly obtained from pexels.com 
+For this project, I have utilised the framework of the example provided during the lesson on the use of boostrap. 
+This is to increase my familiarity with the bootsrap framework and also to explore other functionaliries within the system. 
+I have also used the bootsrap version 4 as used in the module lessons though I am aware that version 5 now exists.
+I created an asset folder which holds my image files. The images were mostly obtained from pexels.com and unsplash.com
 My project will have a set up with 4 pages set up as follows:
-1 A home/landing page that gives the user information about the service. It will also hav the vaigation elements as well as contact information. For a unique product tacking a bespoke population, I feel it is important for the landing page to provide vital information relating to that. The rule of thirds will be implemented in all the pages of the project. 
+1 A home/landing page that gives the user information about the service. It will also hav the navigation elements as well as contact information. 
+For a unique product tacking a bespoke population, I feel it is important for the landing page to provide vital information relating to that.
+The rule of thirds will be implemented in all the pages of the project. The website logo was created through resources obtained at jimdo.com, a logo creator resource.
 The set up of the home page with a header and footer section that is common to all the pages of the website. Content variation will be in the middle section of the pages. 
 2. An activities page will show case some of the the various activities on offer. On this page, the activities will be presented with an image overlay that turns to text with hover functionality.
+3. A gallery page to show various pictures. The middle section of this page hosts the pictures which have been sdet up to display in 4 columns on a desktop screen and 2 columns on mdeium sized screens and single on small devices.
+The coding and styling ideas were obtained from w3schools.com with some modifications I added to fix some bugs. This is in relattion to blank spaces appeaaring on the screen in desktop mode.
+4. The Join Us/ Contact page utilised na simple form structure with 2 rows of input information for name and email.
+This is followed by a textarea section, all similar to the example project in the tutorials. I added an additional check box to 
+further ensure that certaion requirements are fulfilled befgor form submission.
+
+The key issue that has impacted on the smooth completion of the project is getting to understand bootsrap grid flexbox system.
+The activities page has display issues in tablet size screens which I have tried a couple different solutions. 
+I think the issue is related to the bootsrap grid which I might need to override with custom css styling.
