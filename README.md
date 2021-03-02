@@ -39,3 +39,6 @@ further ensure that certaion requirements are fulfilled befgor form submission.
 The key issue that has impacted on the smooth completion of the project is getting to understand bootsrap grid flexbox system.
 The activities page has display issues in tablet size screens which I have tried a couple different solutions. 
 I think the issue is related to the bootsrap grid which I might need to override with custom css styling.
+Solved the text overlay appear on hover effect by creating a new class in the div housing the text and changing the opacity to zero. 
+I then created css to target the overlay class and hover to appear with an opacity of 1.
+Still has the issue of text spilling over into the footer section on medium and tablet size screen size to fix.
