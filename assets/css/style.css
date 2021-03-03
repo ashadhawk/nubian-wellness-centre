@@ -166,10 +166,13 @@ h4 {
 
 .overlay:hover {
     opacity: 1;
-    color: #fff;
+    color:black;
 }
 
 /*-------------------------------activity section*/
+.row {
+    position: relative;
+}
 
 .bg-color-spin {
  background: url("../images/Spin.jpg");
@@ -183,11 +186,11 @@ h4 {
 .activity-text {
    font-family: "Roboto", sans-serif;
     font-weight: 200;
-    font-size: 14px;
+    font-size: max(0.8em, 12px);
     margin-top: 100px;
     margin-left: 10px;
     position: relative;
-    background-color: transparent;
+    background-color: lavender;
     visibility:visible;
     color:black;
 }
@@ -195,11 +198,11 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 200;
     position: absolute;
-    margin-bottom: 0;
+    bottom: 0;
     margin-left: 30px;
     text-align: center;
     width: 75%;
-    font-size: 30px;
+    font-size: 16px;
     color:whitesmoke;
     background: black;
 }

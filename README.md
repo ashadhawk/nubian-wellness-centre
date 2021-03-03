@@ -37,8 +37,21 @@ This is followed by a textarea section, all similar to the example project in th
 further ensure that certaion requirements are fulfilled befgor form submission.
 
 The key issue that has impacted on the smooth completion of the project is getting to understand bootsrap grid flexbox system.
+Activity page:
 The activities page has display issues in tablet size screens which I have tried a couple different solutions. 
 I think the issue is related to the bootsrap grid which I might need to override with custom css styling.
-Solved the text overlay appear on hover effect by creating a new class in the div housing the text and changing the opacity to zero. 
-I then created css to target the overlay class and hover to appear with an opacity of 1.
-Still has the issue of text spilling over into the footer section on medium and tablet size screen size to fix.
+Solved the text overlay "appear on hover" effect by creating a new overlay and a :hover class in the div housing the activity-text and changing the opacity to zero. 
+I then created new css property for overlay class and hover to appear with an opacity of 1.
+I need to play around with the text color considering the white is not easily readable of light aspects of the background image.
+I experimented with diferrent background colors and currently leaving it as lavender.
+Also need to change the hvr-sweep-to-bottom class as reusing this as current set for the nav elements is 
+not fully covering all the text in the activity columns. I will explore hover.css for suitable effects to applyv to the activities section with appropriate sizing.
+Still has the issue of text spilling over into the footer section on medium and tablet size screen size to fix and also the activity-name spills into the footer column 
+and not sitting at the bottom of the column. I posted this issue of text overspill into the footer section on various coding forums. I also requested tutor support at this stage 
+Based on the various responses I received from the different forums, I fixed the activity-name by introducing a row class with position: relative to override the default one from bootstrap, 
+and then added a bottom: 0 to the activity-name class. This then works with the existing position: absolute to force the activity-name class to the bottom of the row div. 
+I also fixed the spilling activity text when you resize the window by using font-size: max(0.8em, 12px) instead of the 16px. 
+This means that the normal size of the text will at least be 12px (i.e. when the window is reduced ) or 0.8em when at full screen.
+All the pages are looking nice no issues with HTML or CSS validation check.
+
+Next stage is to add the href for all the links and make the pages work as one document rather just series of pages.
