@@ -49,13 +49,7 @@ h4 {
     display: inline-block;
 }
 
-/*------
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-----------*/
+
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -187,9 +181,10 @@ h4 {
    font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: max(0.8em, 12px);
-    margin-top: 100px;
+    /*margin-top: 50px;*/
+    /*margin-bottom: 50px;*/
     margin-left: 10px;
-    position: relative;
+    position: absolute;
     background-color: lavender;
     visibility:visible;
     color:black;
@@ -205,6 +200,7 @@ h4 {
     font-size: 16px;
     color:whitesmoke;
     background: black;
+    z-index: 3;
 }
 
 .overlay {
@@ -242,14 +238,13 @@ h4 {
 
 
 /*-------------------------------gallery*/
-/*-------------------------------code idea obtained from w3school*/
+/*-------------------------------code idea for gallery layout obtained from w3school.com*/
 .gallery-pics {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .gallery-column {
   flex: 25%;
   max-width: 25%;
@@ -262,21 +257,7 @@ h4 {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .gallery-column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .gallery-column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 /*-------------------------------Contact Form*/
 .join-heading {
     font-family:"Exo", sans-serif;
@@ -299,6 +280,19 @@ h4 {
 
 /*----------------------------Media Queries*/
 
+@media screen and (max-width: 800px) {
+  .gallery-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .gallery-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 @media(min-width: 992px) {
 .center-form{
     padding-top: 30px;
@@ -307,6 +301,8 @@ h4 {
     max-width: 50%;
 }
 }
+
+
 /*-------------------------------footer*/
 footer {
     background-color: slategray;
