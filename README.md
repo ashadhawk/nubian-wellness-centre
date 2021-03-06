@@ -169,8 +169,9 @@ to ensure it is accessible by those to whom I have given access.
 #### Testing: Tested the site throughout the development within the IDE and the browser through the workspace port.
 Further deployment information and any issues will be documented after the project has been deployed to github pages.
 To enable my project to be deployed from the repository, I modified the settings to create a github pages.
-#### Result:
-#### Fix
+#### Result: The project deployed nicely on github pages https://ashadhawk.github.io/nubian-wellness-centre/activity.html
+No issues. all links work well. The display is responsive across of device sizes.
+#### Fix: No issues identified following deployment.
 
 
 ##Credits
