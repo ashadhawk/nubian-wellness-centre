@@ -54,7 +54,7 @@ A couple of different versions were created to enhance my understanding and comp
 in creating the skeleton/wireframe of the project. This was converted to a low fidelity 
 digital version using Balsamiq wireframe. 
 
-** Surface** With the wireframe now done, I progressed to the surface plane to create the 
+** Surface** With the wireframe completed, I progressed to the surface plane to create the 
 website using the knowledge I have acquired from the various lessons and tutorials from the frontend
 module of the full stack developement programme of codeinstitute.
 Here is to a Happy coding!
@@ -132,16 +132,18 @@ Also need to change the hvr-sweep-to-bottom class as reusing this as currently s
 not fully covering all the text in the activity columns. I will explore hover.css for suitable effects to 
 apply to the activities section with appropriate sizing.
 
-Still has the on-going issue of text spilling over into the footer section on medium and tablet size screen 
+Still had persistent on-going issue of text spilling over into the footer section on medium and tablet size screen 
 sizes to fix and also the activity-name spills into the footer column and not sitting at the bottom of the column. 
 I posted this issue of text overspill into the footer section on various coding forums. I also requested tutor support at this stage 
 Based on the various responses I received from the different forums and got various responses.
 What eventually worked was that I fixed the activity-name by introducing a row class with {position: relative }
 to override the default one from bootstrap, and then added a {bottom: 0} property and value to the activity-name class. 
- This then worked with the existing {position: absolute} to force the activity-name class to the bottom of the row div. 
+This then worked with the existing {position: absolute} to force the activity-name class to the bottom of the row div. 
 I also fixed the spilling activity text when the window is resized by using {font-size: max(0.8em, 12px)} instead of the 16px
 that I orinally used. This means that the normal size of the text will at least be 12px (i.e. when the window is reduced ) or 
 0.8em when at full screen.
+The activities name for afro-fusion was deliberately put on two lines to make it stand out as the activity the centre is 
+renowned for. It is the primary activity that is exclusiveand draws on the culture of the users it aims to attract.
 All the pages are looking nice no issues with HTML or CSS validation check.
 
 Next stage is to add the href for all the links and make the pages work as one document rather just series of pages.
@@ -165,7 +167,8 @@ to ensure it is accessible by those to whom I have given access.
 ###Testing process
 #### Expected: All the pages are working as expected across various device sizes
 #### Testing: Tested the site throughout the development within the IDE and the browser through the workspace port.
-Further deployment information and issues will be documented after the project has been deployed to github pages
+Further deployment information and any issues will be documented after the project has been deployed to github pages.
+To enable my project to be deployed from the repository, I modified the settings to create a github pages.
 #### Result:
 #### Fix
 
@@ -181,7 +184,8 @@ explanations to understanding the tricky aspects of using CSS.
 This is my first foray into software development. I have learnt a lot within a short period.
 My strength definitely lies in the conceptualisation and design of the project. Working with
 wireframes was intuitive and I believe I can design visually appealing and intuitive websites and programmes
-as I acquire more coding skills.
- I am able to write and structure the HTML codes as required. The CSS was a bit trickier but I got better hang of it 
+as I acquire more coding skills. My wireframe was quite ambitious and had more features than I am able to technically
+execute. I therefore had to adapt the project what what is within my technical ability.
+ I am able to write and structure the HTML codes that the project required. The CSS was a bit tricky but I got better hang of it 
 as I worked through the project. I believe I have created a worthy first milestone project that 
 has further increased my interest to progress further in the software development ladder.
