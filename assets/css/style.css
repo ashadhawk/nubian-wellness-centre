@@ -163,6 +163,10 @@ h4 {
     color:black;
 }
 
+.hvr-radial-out::before {
+    background: rgba(0,0,0, 0.2);
+    height: 200px;
+}
 /*-------------------------------activity section*/
 .row {
     position: relative;
